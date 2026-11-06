@@ -1,0 +1,24 @@
+{
+  "number": 83,
+  "product_id": "JLZ-EDU-SK-067",
+  "chinese_name": "付款凭证核对",
+  "english_name": "Payment Voucher Checker",
+  "repository_name": "edu-payment-voucher-checker",
+  "product_type": "Skill",
+  "category": "07 财务运营中心",
+  "version": "1.0.0",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED",
+  "license": "Apache-2.0",
+  "baseline_tag": "education-product-baseline-v1.0.0",
+  "package_path": "dist/edu-payment-voucher-checker-v1.0.0.zip",
+  "calculator": false,
+  "core_input": "付款申请、发票/收据、合同、审批、收款方和金额一致性",
+  "main_output": "凭证核对清单、差异表、重复/缺失项、风险等级和复核结论",
+  "package_entries": [
+    "edu-payment-voucher-checker/SKILL.md",
+    "edu-payment-voucher-checker/references/DOMAIN_GUIDE.md",
+    "edu-payment-voucher-checker/references/EXAMPLES.md",
+    "edu-payment-voucher-checker/templates/OUTPUT_TEMPLATE.md"
+  ]
+}
